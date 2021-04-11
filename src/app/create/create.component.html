@@ -1,0 +1,6 @@
+<form (ngSubmit)="createNew()">
+  name:<input [(ngModel)]="product.name" name="name" ><br>
+  description:<input [(ngModel)]="product.description" name="description" ><br>
+  <input type="submit">
+</form>
+<a [routerLink]="''">back</a>
